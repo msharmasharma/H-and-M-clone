@@ -1,0 +1,426 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+body {
+  width: 1600px;
+  display: grid;
+  grid-template-areas: "top top";
+  margin: auto;
+  padding: 20px;
+}
+
+#top {
+  grid-area: top;
+  /* border: 1px solid red; */
+  height: 210px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  /* border: 1px solid blue; */
+  padding: 10px;
+}
+
+.navigation > span {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.navigation > span > a {
+  text-decoration: none;
+  color: black;
+}
+
+span > i {
+  margin-right: 5px;
+}
+
+#sgn > span > a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+#srch {
+  border-bottom: 1px solid black;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+
+#srch > input {
+  background-color: transparent;
+  border: 0px solid;
+  height: 20px;
+  width: 140px;
+}
+
+#logoMiddle {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#logoMiddle > .logoMain {
+  /* border: 1px solid black; */
+  width: 65px;
+  height: 55px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+#logoMiddle > .logoMain > a > img {
+  width: 100%;
+}
+
+#logoMiddle > .mainMenu {
+  padding-top: 10px;
+  /* border: 1px solid black; */
+  height: 50px;
+  width: 90%;
+  display: flex;
+  gap: 20px;
+
+  justify-content: space-between;
+}
+
+#logoMiddle > .mainMenu > a {
+  text-decoration: none;
+  color: #432522;
+  font-size: 18px;
+  font-weight: 550;
+}
+.click > p {
+  font-size: 12px;
+}
+
+.click > p > a {
+  text-decoration: none;
+  color: black;
+}
+
+.click > p > a:hover {
+  color: red;
+}
+
+#bottom {
+  /* border: 1px solid blue; */
+  width: 1600px;
+  display: flex;
+}
+
+#left {
+  /* border: 1px solid green; */
+  /* height: 800px; */
+  width: 200px;
+}
+
+.sidebar {
+  padding: 0px 0px 10px 10px;
+  /* border: 1px solid teal; */
+  max-height: 350px;
+  line-height: 25px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sidebar a {
+  /* text-decoration: none; */
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+#right {
+  /* border: 1px solid rgb(20, 11, 11); */
+  width: 1100px;
+  margin-left: 20px;
+}
+
+.bigImg {
+  border: 1px solid rgb(255, 255, 255);
+  height: 720px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+#up {
+  background: url(https://www2.hm.com/content/dam/TOOLBOX/inlocal/IN_S4_FESTIVE_PART_2_3x2_kids%20group%201.jpg)
+    no-repeat;
+  background-size: 100%;
+}
+
+#up > div {
+  /* border: 1px solid red; */
+  /* background-color: black; */
+  text-align: center;
+  margin-top: 550px;
+  color: white;
+  font-weight: 900;
+  line-height: 15px;
+}
+
+#up > div > h1 {
+  font-size: 45px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+#up > div > button {
+  height: 40px;
+  width: 90px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #efefef;
+}
+
+#middleImg {
+  border: 1px solid rgb(255, 255, 255);
+  height: 200px;
+  margin-bottom: 28px;
+  background-image: url(https://www2.hm.com/content/dam/hm/TOOLBOX/Local%20Activities/2021_s03/mars/nea/nea-sanrio-local-activity09-SGI-3x1.jpg);
+  background-size: 100%;
+}
+
+#middle {
+  /* border: 1px solid red; */
+  /* background-color: black; */
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+  line-height: 7.9px;
+}
+
+#middle > h2 {
+  font-size: 30px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+#middle > button {
+  height: 40px;
+  width: 90px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+#middle > button:hover {
+  background-color: grey;
+}
+
+#down {
+  background-image: url(https://www2.hm.com/content/dam/kids_s04/september_2021/4064b/4064B3x2.jpg);
+  background-size: 100%;
+}
+
+#first {
+  line-height: 10px;
+  background: rgba(20, 20, 20, 0.8);
+  width: 170px;
+  height: 80px;
+  text-align: left;
+  padding: 10px;
+  color: white;
+  margin-left: 300px;
+  margin-top: 250px;
+  border-radius: 10px;
+}
+
+#down > a {
+  text-decoration: none;
+}
+
+#second {
+  /* border: 1px solid red; */
+  /* background-color: black; */
+  text-align: center;
+  margin-top: 190px;
+  color: white;
+  font-weight: 900;
+  line-height: 15px;
+}
+
+#second > h1 {
+  font-size: 45px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+#second > button {
+  height: 40px;
+  width: 90px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 1px solid #efefef;
+}
+
+.text {
+  padding: 10px;
+  line-height: 18px;
+}
+
+#more {
+  display: none;
+}
+
+.text > p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.text > p > a {
+  color: black;
+}
+
+.text > #a {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#reading {
+  margin-top: 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#footer {
+  margin-top: 20px;
+  border: 1px solid #e4e4e4;
+  background: #e4e4e4;
+}
+
+#list {
+  /* border: 1px solid black; */
+  margin: auto;
+  width: 950px;
+  height: 210px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.colmn {
+  /* border: 1px solid red; */
+  width: 20%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.colmn > p {
+  font-size: 15px;
+}
+
+.colmn > a {
+  text-decoration: none;
+  line-height: 20px;
+  color: black;
+  font-size: 14px;
+}
+
+.colmn > p > a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+#socialMedia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.common {
+  /* border: 1px solid black; */
+  margin: auto;
+  width: 950px;
+  /* height: 250px; */
+}
+
+.socialIcon {
+  /* border: 1px solid blue; */
+  width: 300px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialIcon > i {
+  cursor: pointer;
+}
+
+.claim {
+  /* border: 1px solid rgb(124, 55, 55); */
+  width: 70%;
+  height: 80px;
+  text-align: center;
+  line-height: 15px;
+}
+
+.claim > p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.claim > a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
+
+#mores {
+  display: none;
+}
+
+#readValue {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#bottomLogo {
+  /* border: 1px solid red; */
+  width: 250px;
+  height: 100px;
+}
+
+#bottomLogo > a > img {
+  width: 100%;
+  height: 100%;
+}
+
+#bottomLast {
+  display: flex;
+  flex-direction: row;
+}
+
+#bottomLast > p {
+  font-size: 14px;
+}
+
+#bottomLast > p > a {
+  text-decoration: none;
+  color: black;
+}
