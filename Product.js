@@ -390,50 +390,12 @@ function modelshow(){
      mainDiv.append(imageDiv);
     });
   }
-  //Box button--------------------------------------------------------------
-
-  document.getElementById("emtbox").addEventListener("click",boxshow)
-
-  var boxbutton=JSON.parse(localStorage.getItem("product"));
-
-  function boxshow(){
-    var right1 = document.getElementById("right");
-    var mainDiv1 = document.createElement("div");
-    mainDiv1.setAttribute("id", "containermain1");
-    right1.append(mainDiv1);
-  
-    document.getElementById("containermain").innerHTML="";
-   
-   boxbutton.map(function (item) {
-       var imageDiv = document.createElement("div");
-       imageDiv.setAttribute("id","heart");
-  
-       var img = document.createElement("img");
-       img.setAttribute("src", item.image_url);
-  
-       var p1 = document.createElement("p");
-       p1.textContent = item.type;
-  
-       var p3 = document.createElement("span");
-       p3.textContent = "Rs.";
-  
-       var p2 = document.createElement("span");
-       p2.textContent = item.price;
-  
-       var btn = document.createElement("button");
-       btn.textContent = "CHECKOUT";
-       imageDiv.append( img, p1, p3,p2 );
-  
-       mainDiv1.append(imageDiv);
-   
-      });
-    }
 // Product button--------------------------------------------------------------
   document.getElementById("grid4").addEventListener("click",prodshow)
   var prodbutton=JSON.parse(localStorage.getItem("product"));
   function prodshow(){
     document.getElementById("containermain").innerHTML="";
-   
+
     prodbutton.map(function (item) {
        var imageDiv = document.createElement("div");
        imageDiv.setAttribute("id","heart");
@@ -459,9 +421,46 @@ function modelshow(){
       });
     }
 
+//Box button--------------------------------------------------------------
 
+    document.getElementById("emtbox").addEventListener("click",boxshow)
+
+    var boxbutton=JSON.parse(localStorage.getItem("product"));
+
+    function boxshow(){
+      var right1 = document.getElementById("right");
+      var mainDiv1 = document.createElement("div");
+      mainDiv1.setAttribute("id", "containermain1");
+      right1.append(mainDiv1);
+    
+      document.getElementById("containermain").innerHTML="";
+     
+     boxbutton.map(function (item) {
+         var imageDiv = document.createElement("div");
+         imageDiv.setAttribute("id","heart");
+    
+         var img = document.createElement("img");
+         img.setAttribute("src", item.image_url);
+    
+         var p1 = document.createElement("p");
+         p1.textContent = item.type;
+    
+         var p3 = document.createElement("span");
+         p3.textContent = "Rs.";
+    
+         var p2 = document.createElement("span");
+         p2.textContent = item.price;
+    
+         var btn = document.createElement("button");
+         btn.textContent = "CHECKOUT";
+         imageDiv.append( img, p1, p3,p2 );
+    
+         mainDiv1.append(imageDiv);
+     
+        });
+      }
 // Box Matrix Button----------------------------------------------------
-document.getElementById("grid4").addEventListener("click",prodshow)
+document.getElementById("boxflex").addEventListener("click",prodshow)
   var prodbutton=JSON.parse(localStorage.getItem("product"));
   function prodshow(){
     document.getElementById("containermain").innerHTML="";

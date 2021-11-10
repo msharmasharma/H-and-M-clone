@@ -151,7 +151,7 @@
    
     width: fit-content;
     margin-left: 20px;
-    height: 3000px;
+    height: fit-content;
   }
   #boy{
     font-size: 40px;
