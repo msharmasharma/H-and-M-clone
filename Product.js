@@ -358,7 +358,7 @@ showProducts(prod)
   }
 
 // Model button--------------------------------------------------------------
-
+  localStorage.setItem("modelproduct", JSON.stringify(modeldata))
   var modelprod=JSON.parse(localStorage.getItem("modelproduct"));
 
 
@@ -392,11 +392,15 @@ function modelshow(){
   }
 // Product button--------------------------------------------------------------
   document.getElementById("grid4").addEventListener("click",prodshow)
-  var prodbutton=JSON.parse(localStorage.getItem("product"));
-  function prodshow(){
-    document.getElementById("containermain").innerHTML="";
+  
 
+  function prodshow(){
+    var prodbutton=JSON.parse(localStorage.getItem("product"));
+    document.getElementById("containermain").innerHTML="";
+    
+   
     prodbutton.map(function (item) {
+      
        var imageDiv = document.createElement("div");
        imageDiv.setAttribute("id","heart");
   
