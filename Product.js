@@ -712,13 +712,14 @@ function signin(){
       document.getElementById("signinmain").textContent="My Account";
     }
   }
-  if(flag==0){
+  if(flag==0 ){
     document.getElementById("alert").style.display="block";
   }
 }
 
 
-//signin for products page
+//signin for products page\
+
 
 document.getElementById("signinmain").addEventListener("click",signinmain);
 function signinmain(event){
