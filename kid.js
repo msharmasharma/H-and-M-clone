@@ -114,7 +114,6 @@ function signin(){
 
 document.getElementById("signinmain").addEventListener("click",signinmain);
 function signinmain(event){
-  console.log("signned in main");
   document.getElementById("container").style.position="absolute";
   document.getElementById("container").style.visibility="visible";
   document.getElementById("container").style.display="block";
