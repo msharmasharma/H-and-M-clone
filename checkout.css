@@ -1,0 +1,218 @@
+body {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 50px;
+  }
+  .dilivery p {
+    margin-top: 0;
+    font-size: 13px;
+  }
+  .container {
+    display: flex;
+    width: 1600px;
+    margin: auto;
+    justify-content: center;
+  }
+  .address-detail {
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    grid-template-rows: repeat(4, 100px);
+    grid-template-areas:
+      "first last"
+      "add1 add2"
+      "pin city"
+      "state .";
+  }
+  .information {
+    width: 50%;
+  }
+  .first {
+    grid-area: first;
+  }
+  .last {
+    grid-area: last;
+  }
+  .add1 {
+    grid-area: add1;
+  }
+  .add2 {
+    grid-area: add2;
+  }
+  .pin {
+    grid-area: pin;
+  }
+  .city {
+    grid-area: city;
+  }
+  .state {
+    grid-area: state;
+  }
+  .personal-details {
+    display: flex;
+  }
+  .dob {
+    margin-right: 10%;
+  }
+  
+  table {
+    border-collapse: separate;
+    width: 100%;
+    text-align: left;
+    margin-top: 20%;
+  }
+  p {
+    margin-bottom: 5px;
+  }
+  input {
+    height: 45px;
+    width: 300px;
+    border: 1px solid #d0d0d0;
+  }
+  #check {
+    height: 20px;
+    width: 20px;
+  }
+  .placeholder {
+    margin-top: 0;
+    font-size: 12px;
+  }
+  .complete {
+    width: 214px;
+    height: 47px;
+    padding: 16px;
+    background-color: #e4e4e4;
+    border: 1px solid #e4e4e4;
+    margin-top: 5%;
+  }
+  .add {
+    height: 49px;
+    width: 64px;
+    background-color: white;
+    border: 1px solid #e4e4e4;
+  }
+  .mail {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .market {
+    font-size: 14px;
+  }
+  .market a {
+    color: grey;
+  }
+  .view {
+    font-size: 16px;
+    position: relative;
+    margin-top: 20px;
+  }
+  #view-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid #222222;
+  }
+  .fa-plus {
+    position: absolute;
+    top: 18px;
+    right: 10px;
+  }
+  #view-head {
+    font-size: 16px;
+  }
+  .mainDiv {
+    display: flex;
+  }
+  #productImg {
+    width: 100px;
+  }
+  .cart-product {
+    display: none;
+  }
+  .div2 {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .back {
+    cursor: pointer;
+  }
+  
+  .card {
+    display: flex;
+    width: 50%;
+    height: 50px;
+  }
+  .radio{
+    width: 15px;
+    margin: 0;
+  }
+  .card p {
+    margin-right: auto;
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .card img{
+    object-fit: contain;
+  }
+  .payment {
+    display: none;
+  }
+  .payment-details{
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    
+    grid-template-areas: 
+    "first-name last-name"
+    "card-num expiry"
+    "card-img ."
+    "card-cvv card-cvv"
+    ;
+  }
+  .payment-details #card-cvv input{
+    width: 92%;
+  }
+  #first-name{
+    grid-area: first-name;
+  }
+  #last-name{
+    grid-area: last-name;
+  }
+  #card-num{
+    grid-area: card-num;
+  }
+  #expiry{
+    grid-area: expiry;
+  }
+  #card-img{
+    grid-area: card-img;
+  }
+  #card-cvv{
+    grid-area: card-cvv;
+  }
+  #card-img{
+    margin-top: 20px;
+    
+  }
+  .comp-payment{
+    width: 214px;
+    height: 47px;
+    padding: 16px;
+    background-color: #e4e4e4;
+    border: 1px solid #e4e4e4;
+    margin-top: 5%;
+    font-weight: bold;
+  }

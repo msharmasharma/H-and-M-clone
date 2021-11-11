@@ -7,7 +7,10 @@ var data = [
     rec:1,
  image_url:
  "https://lp2.hm.com/hmgoepprod?set=source[/2d/5b/2d5bb41ca23e6792ba9b5089c3e8aaeb00c9e8b1.jpg],origin[dam],category[kids_boys14y_jumperscardigans],type[DESCRIPTIVESTILLLIFE],res[z],hmver[2]&call=url[file:/product/main]",
+ image_url2:
+    "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc1%2F82%2Fc182c715a0626965694a6e981e59f9c4b13e72c3.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_boys14y_jumperscardigans%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]"
   },
+  
   { price:"1,299",
       MRP: 1299,
       new: 11,
@@ -15,6 +18,8 @@ var data = [
     type: "Hooded Jacket",
     image_url:
       "https://lp2.hm.com/hmgoepprod?set=source[/cc/a3/cca377c295223ee1e360c4cead44a8f581050e40.jpg],origin[dam],category[kids_boys14y_jumperscardigans],type[DESCRIPTIVESTILLLIFE],res[z],hmver[1]&call=url[file:/product/main]",
+    image_url2:
+    "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F90%2Fb2%2F90b2accb35c52bd8636f389438267c994d459697.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_boys14y_jumperscardigans%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
   },
   { price:"2,999",
     MRP:2999,
@@ -24,6 +29,8 @@ var data = [
 
     image_url:
       "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F5d%2F04%2F5d0467ad25f00adb1e914428aee851a3555809ae.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      image_url2:
+      "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F3e%2F26%2F3e26a5e295c087e121aa174cf6bfa949e730f04c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
   },
   { price:"4,499",
     MRP: 4499,
@@ -32,6 +39,8 @@ var data = [
     type: "Down Jacket",
     image_url:
       "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fe0%2F3f%2Fe03f6def286af8cbf459d682b95f03813a07a502.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_boys_outerwear_jackets%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      image_url2:
+      "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa6%2Fec%2Fa6eca9eb046a807fd266cfb5bfa6159fbaaf2be6.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
   },
   { price:"1,299",
     MRP: 1299,
@@ -40,6 +49,8 @@ var data = [
     type: "Hooded Jacket",
     image_url:
       "https://lp2.hm.com/hmgoepprod?set=source[/c6/79/c6790788fea3ed5d5fd73b2b9fccb325652fb1b5.jpg],origin[dam],category[kids_boys14y_jumperscardigans],type[DESCRIPTIVESTILLLIFE],res[z],hmver[1]&call=url[file:/product/main]",
+      image_url2:
+      "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F7a%2Fdf%2F7adf21435945d26ab0ac78008776e67f64c44f9d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_boys14y_jumperscardigans%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
   },
   { price:"1,299",
     MRP: 1299,
@@ -48,6 +59,8 @@ var data = [
     type: "Hooded Jacket",
     image_url:
       "https://lp2.hm.com/hmgoepprod?set=source[/26/50/26505c86d1955c439364ddf6296d97cfdb6f2a5b.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[z],hmver[2]&call=url[file:/product/main]",
+      image_url2:
+      "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fce%2F3d%2Fce3db0a8b067ce7b185341e5c8d2b3454f7e879e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
   },
   { price:"2,299",
     MRP: 2299,
@@ -56,6 +69,8 @@ var data = [
     type: "Padded Jacket",
     image_url:
       "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F5d%2F51%2F5d51e7dc89886820be14f9d42de01af1725a03b4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_boys_outerwear_jackets%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      image_url2:
+      "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fc4%2F23%2Fc423843125c523040f573afb4c5be596b907e9be.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
   },
   { price:"1,299",
     MRP: 1299,
@@ -64,6 +79,8 @@ var data = [
     type: "Hooded Jacket",
     image_url:
       "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F6e%2Fd1%2F6ed10e4aab73d90ef25dd59bd4be8be796388643.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      image_url2:
+      "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ff3%2F61%2Ff361f6a87ea70ced1f6cfe07f6c3f361b53c02df.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_boys_outerwear_jackets%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]"
   },
   { price:"1,399",
     MRP: 1399,
@@ -72,6 +89,8 @@ var data = [
     type: "OverSized cotto shirt Jacket",
     image_url:
       "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F69%2F62%2F69623102a20288eea219d3f8d8844117c8d1037c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_boys_outerwear_jackets%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      image_url2:
+      "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F59%2F6e%2F596e0a721f5fe1843c5b8aaa88084394233e878b.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
   },
   { price:"1,499",
     MRP: 1499,
@@ -80,6 +99,8 @@ var data = [
     type: "Seamless base layer set",
     image_url:
       "https://lp2.hm.com/hmgoepprod?set=source[/bd/85/bd854f6fc3827300d2943542576c253844276285.jpg],origin[dam],category[Kids_boy8y_multipack_sets],type[DESCRIPTIVESTILLLIFE],res[z],hmver[1]&call=url[file:/product/main]",
+      image_url2:
+      "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F1c%2Fdd%2F1cdd0529d09a8bc6fd17052c009e444bcb3d4486.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5BKids_boy8y_multipack_sets%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
   },
   { price:"2,999",
     MRP: 2999,
@@ -88,6 +109,8 @@ var data = [
     type: "Seamless base layer set",
     image_url:
       "https://lp2.hm.com/hmgoepprod?set=source[/ec/e7/ece7f8d9eac27b93d3f228def9addd2b396ca78e.jpg],origin[dam],category[kids_boys14y_function],type[DESCRIPTIVESTILLLIFE],res[z],hmver[1]&call=url[file:/product/main]",
+      image_url2:
+      "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F73%2F38%2F7338a43824b92bd4e773e9ec37d03d640d2138e4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]"
   },
   { price:"1,999",
     MRP: 1999,
@@ -96,6 +119,8 @@ var data = [
     type: "Padded Jacket",
     image_url:
       "https://lp2.hm.com/hmgoepprod?set=source[/a7/00/a700328948463949a27d3f9d5fc885e562919bf6.jpg],origin[dam],category[kids_boy8y_outdoor],type[DESCRIPTIVESTILLLIFE],res[z],hmver[1]&call=url[file:/product/main]",
+      image_url2:
+      "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F91%2F13%2F91130402b9d8cffe41d06ebc91fdfcb9872e8907.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
   },
   { price:"2,999",
     MRP: 2999,
@@ -104,6 +129,8 @@ var data = [
     type: "Water-repellent ski mitton",
     image_url:
       "https://lp2.hm.com/hmgoepprod?set=source[/59/ec/59eceacf1e12f7a1e256b3904a869903a2ff8c83.jpg],origin[dam],category[],type[DESCRIPTIVESTILLLIFE],res[z],hmver[2]&call=url[file:/product/main]",
+      image_url2:
+      "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F22%2Fd7%2F22d7220196a701e941979bfb12323dc3394e156f.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]"
   },
   { price:"699",
     MRP: 699,
@@ -112,6 +139,8 @@ var data = [
     type: "Jersey-lined nylon jacket",
     image_url:
       "https://lp2.hm.com/hmgoepprod?set=source[/e8/d8/e8d834ccd811269ae5576096c1d13ca6dfc2df52.jpg],origin[dam],category[kids_boy8y_outdoor],type[DESCRIPTIVESTILLLIFE],res[z],hmver[2]&call=url[file:/product/main]",
+      image_url2:
+      "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F6e%2F53%2F6e530cc47d2dc8244579fbc1ae2d21e41508c08c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
   },
   { price:"3,999",
     MRP: 3999,
@@ -120,6 +149,8 @@ var data = [
     type: "Oversized faux shearing jacket",
     image_url:
       "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F54%2F05%2F54052c611cd4cf0a725fe94a38226ed2ce7e4dc4.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+    image_url2:
+    "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Ffe%2F43%2Ffe43eb20b8c62f7e575c40bb36baf2d19477171d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
   },
   { price:"3,999",
     MRP: 3999,
@@ -137,6 +168,8 @@ var data = [
     type: "Water-repellent ski trouser",
     image_url:
       "https://lp2.hm.com/hmgoepprod?set=source[/e4/f7/e4f7da26f25fb1d24e845b064e299116ebeb719e.jpg],origin[dam],category[kids_boys14y_outdoor],type[DESCRIPTIVESTILLLIFE],res[z],hmver[1]&call=url[file:/product/main]",
+      image_url2:
+      "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fcb%2Fa4%2Fcba4b0a006ddc9c2693476156afdb20074ade61d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5Bkids_boys14y_outdoor%5D%2Ctype%5BDESCRIPTIVEDETAIL%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
   },
 
 ];
@@ -294,6 +327,9 @@ var prod=JSON.parse(localStorage.getItem("product"));
 var right = document.getElementById("right");
 var mainDiv = document.createElement("div");
 mainDiv.setAttribute("id", "containermain");
+mainDiv.addEventListener("click",function(){
+  window.location.href = "selected.html" 
+})
 right.append(mainDiv);
 showProducts();
 
@@ -344,6 +380,8 @@ function showProducts() {
     img.setAttribute("id", "img");
     img.addEventListener("click",function(){
     addCart(item);
+
+
     });
 
     var btn = document.createElement("button");
