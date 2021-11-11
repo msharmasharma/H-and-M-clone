@@ -162,15 +162,24 @@ a:hover {
   font-weight: 500;
   color: rgb(0, 0, 0);
 }
+#size{
+  font-weight: bold;
+  font-size: 15px;
+}
 #containermain {
   width: 94%;
 
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 0.5%;
-
-
 }
+#containermain1 {
+  width: 94%;
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  grid-gap: 0.5%;
+ 
+  }
 #heart{
   margin-top: 30px;
 
@@ -185,17 +194,28 @@ text-decoration: underline black;
 }
 /* #btn {
   position: absolute;
-  top: 30%;
-  left: 75%;
-  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 98%;
+  transform: translate(-90%, -70%);
   cursor: pointer;
 } */
+#img1 {
+  width: 50px;
+  height: 50px;
+}
+#img1:hover {
+  width: 55px;
+  height: 55px;
+  transition: 0.3s;
+}
 
 /* 
 Pop up part ====================================*/
 #simple{
   border: none;
   background: none;
+  font-weight: bold;
+  font-size: 15px;
 }
 .model{
   margin-top: 10px;
@@ -206,7 +226,7 @@ Pop up part ====================================*/
  transition: 200ms ease-in-out;
  border-radius: 5px;
 
- max-height:850px ;
+ max-height:780px ;
  background-color: whitesmoke;
  width: 35%;
  overflow: scroll;
@@ -235,8 +255,9 @@ margin-left: 90%;
 
 ul li a{
 text-decoration: none;
-
-font-size: 20px;
+color: black ;
+font-size: 15px;
+font-weight: bold;
 }
 
 ul li a:hover{
@@ -279,57 +300,72 @@ margin: auto;
 justify-content: center;
 text-align: center;
 font-size: 17px;
+
 }
 #done{
-height:50px;
-width: 250px;
-font-size: 20px;
+height:40px;
+width: 200px;
+font-size: 15px;
 background-color: black;
 border: black 1px solid;
 color: white;
+margin: auto;
+justify-content: center;
+text-align: center;
+
 }
 #clear{
-height:50px;
-width: 250px;
-font-size: 20px;
+height:40px;
+width: 200px;
+font-size: 15px;
 color: grey;
 border: black 1px solid;
+margin: auto;
+justify-content: center;
+text-align: center;
+
 }
 #space{
-margin-left: 60%;
+margin-left: 52%;
+
+font-size: 17px;
+
 
 }
 #grid3{
 background: none;
 outline: none;
 border: none;
-height: 40px;
-width: 50px;
+height: 70px;
+width: 60px;
+font-size: 17px;
+margin-left: 7px;
+
 }
 #grid4{
 background: none;
 outline: none;
 border: none;
-height: 40px;
-width: 60px;
+height: 70px;
+width: 75px;
+font-size: 17px;
+margin-left: 7px;
 }
 #emtbox{
 background: none;
 outline: none;
 border: none;
+font-size: 17px;
+margin-left: 7px;
 }
 #boxflex{
 background: none;
 outline: none;
-
+font-size: 17px;
 border: none;
+margin-left: 7px;
 }
-#containermain1 {
-width: 100%;
-display: grid;
-grid-template-columns: auto auto auto ;
 
-}
 /* #containermain1 #heart>img{
 
 
@@ -371,7 +407,7 @@ background-color: black;
   margin-top: 20px;
   border: 1px solid #e4e4e4;
   background: #e4e4e4;
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 #list {
@@ -489,13 +525,3 @@ background-color: black;
   text-decoration: none;
   color: black;
 }
-/* #mainboy{
-  border: black 1px solid;
-  width: 1400px;
-  height: 1800px;
-  margin-left: 40px;
-}
-#mainboy1{
-padding-top: 0px;
-font-size: 40px;
-} */
