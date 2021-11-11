@@ -5,10 +5,116 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="signin.css">
+    <script src="https://kit.fontawesome.com/1498e77e98.js" crossorigin="anonymous"></script>
     <title>Document</title>
 
 </head>
 <body>
+ <!--popup sign in page -->
+
+ <div id="container">
+  <div id="check">
+      <button id="x">x</button>
+  </div>
+  
+<div id="text">
+    
+  <h2>Sign in</h2>
+  <p>
+    Become a member - don't miss out on deals, offers, discounts and bonus
+    vouchers.
+  </p>
+</div>
+<div>
+  <label for="email" class="required">Email</label>
+  <input id="semail" type="email" />
+</div>
+<div>
+  <label for="password" class="required">Password</label>
+  <input id="spassword" type="password" name="passoword" id="passoword" />
+  <h5 id="alert">wrong email,or password</h5>
+  <div id="flex">
+      <div>
+          <span
+      ><input type="checkbox" name="rememberme" id="checkbox" /><label
+        for="rememberme"
+        >Remember me</label
+      >
+    </span>
+      </div>
+    <div> <a href="" id="forgot"><p> forgot password?</p></a></div>
+   
+  </div>
+</div>
+<div>
+  <button id="signin">SIGN IN</button>
+  <button id="signup">BECOME A MEMBER</button>
+  <a href=""><p id="text">Membership info</p></a>
+</div>
+</div>
+
+<!-- signup part -->
+
+<div id="container2">
+<div id="check">
+  <button id="X">x</button>
+</div>
+<div id="text">
+    
+<h2>BECOME A MEMBER</h2>
+<p>Become a member - don't miss out on deals, offers, discounts and bonus vouchers.</p>
+</div>
+<div>
+<label for="email" class="required" >Email</label>
+<input id="memail" type="email" />
+<p id="emailalert"></p>
+<label for="password" class="required">Create a password</label>
+<input id="mpassword"type="password">
+<p id="passwordalert"></p>
+<label for="dob" class="required">Date of birth</label>
+<input type="date">
+<p id="dobalert"></p>
+<p>H&M wants to give you a special treat on your birthday</p>
+
+<!-- addmore option -->
+
+<button id="addmore">
+  <span  style="display:flex;justify-content: space-between;"><div id="changecolor">ADD MORE & GET MORE</div>
+   <i id="plus" class="fas fa-plus"></i>
+   <i id="minus" class="fas fa-minus"></i>
+ </span>
+ </button>
+ <div id="moreDetails">
+   <P>"Did you kknow that if you add some more information below you will earn more points and get a more personalized experience? How great is that?"</P>
+   <label for="">First name</label>
+   <input type="text" name="" id="">
+   <label for="">last name</label>
+   <input type="text" name="" id="">
+   <label for="">Gender</label>
+   <select name="" id="" style="height: 50px; font-size: 20px;">
+     <option value="" >Select a Gender</option>
+     <option value="male">Male</option>
+     <option value="female">Female</option>
+   </select>
+   <label for="">Pin Code</label>
+   <input type="text">
+ </div>
+</div>
+<div>
+<div id="flex"> <input type="checkbox" ><p>Yes, email me offers, style updates,and speciala invites to sale and events.</p></div>
+<p style="padding:0px 0px 0px 20px;">Wish your inbox was more stylish? No problem, just subscribe to our newsletter. Find out what's hot and happening in the world of fashion, beauty, and home decor. Plus, you'll get bonus vouchers, birthday offers, and special invites to sales and events – straight to your inbox!</p> 
+<p style="font-size: small;">By clicking ‘Become a member’, I agree to the H&M Membership <a href="" style="text-decoration: underline;">Terms and conditions.</a> </p>
+<p style="font-size: small;">To give you the full membership experience, we will process your personal data in accordance with the H&M''s <a href="" style="text-decoration: underline;">Privacy Notice. </a></p>
+</div>
+<div>
+<button id="beMember">BECOME A MEMBER</button>
+<button id="back">Back to sign in</button>
+</div>
+</div>
+ 
+<!-- home page part -->
+
     <div id="top">
         <nav class="navigation">
           <span><a href="">Customer Service</a></span>
@@ -42,7 +148,7 @@
   
         <div id="signbag" class="navigation">
           <div id="sgn">
-            <span><i class="far fa-user"></i><a href="">Sign in</a></span>
+            <span><i class="far fa-user"></i><button href="" id="signinmain">Sign in</button></span>
             <span><i class="far fa-heart"></i><a href="">Favourites</a></span>
             <span
               ><i class="fas fa-shopping-cart"></i
@@ -80,7 +186,7 @@
         <img class="r1" src="https://m.media-amazon.com/images/I/51q2t2DUpaL._AC_SX425_.jpg">
         <img class="r1" src="https://5.imimg.com/data5/UO/EO/IG/ANDROID-91808111/product-jpeg-500x500.jpg">
         <img class="r1" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/B9FF/production/_117751674_satan-shoes1.jpg">
-        <img class="r1" src="https://i1.sndcdn.com/avatars-zCm8tXlvCOVyflz4-f9QnQQ-t500x500.jpg"
+        <img class="r1" src="https://i1.sndcdn.com/avatars-zCm8tXlvCOVyflz4-f9QnQQ-t500x500.jpg">
         
     </div>
 
@@ -219,11 +325,10 @@
           </div>
   
           <div id="bottomLast">
-            <p><a href="">INDIA</a> | Rs.</p>
+            <p><a href="" id="ind">INDIA</a> | Rs.</p>
           </div>
         </div>
       </div>
     </body>
-  </html>
-</body>
 </html>
+<script src="home.js"></script>

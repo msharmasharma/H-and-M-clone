@@ -4,8 +4,8 @@
 }
 
 #container {
-    border: 1px solid black;
-    height: 530px;
+    border: 0.5px solid rgb(122, 113, 113);
+    height: 535px;
     width: 400px;
     background-color: #faf9f8;
     margin: auto;
@@ -14,14 +14,14 @@
     margin-top: 0px;
     padding: 40px;
     padding-top: 20px;
-  z-index: 1;
-  margin-left: 35%;
-  align-items: center;
-  min-width:400px;
- justify-content: center;
- display: none;
+    z-index: 99;
+    margin-left: 35%;
+    align-items: center;
+    min-width:400px;
+   position: absolute;
+   justify-content: center;
+   display: none;
 
- 
   }
   #container > div {
     display: grid;
@@ -107,7 +107,7 @@
     padding: 40px;
     padding-top: 20px;
     display: none;
-    position: fixed;
+    position: absolute;
     margin-left: 35%;
     min-width:400px;
     
