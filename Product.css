@@ -180,6 +180,10 @@
     height: 400px;
     width: 100%;
   }
+  #heart>p:hover{
+text-decoration: underline black;
+  }
+  
 /* 
   Pop up part ====================================*/
 #simple{
