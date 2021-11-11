@@ -1,0 +1,166 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+#container {
+    border: 1px solid black;
+    height: 530px;
+    width: 400px;
+    background-color: #faf9f8;
+    margin: auto;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    margin-top: 0px;
+    padding: 40px;
+    padding-top: 20px;
+  z-index: 1;
+  margin-left: 35%;
+  align-items: center;
+  min-width:400px;
+ justify-content: center;
+ display: none;
+
+ 
+  }
+  #container > div {
+    display: grid;
+  }
+  #container2 > div {
+    display: grid;
+  }
+  #text {
+    text-align: center;
+  }
+
+  input {
+    height: 50px;
+  }
+  button {
+    height: 40px;
+  }
+  #signin {
+    background-color: black;
+    color: white;
+  }
+  #signup {
+    margin-top: 10px;
+    font-weight: bold;
+    color: black;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .required:after {
+    content: "*";
+    color: rgb(228, 13, 13);
+  }
+  #checkbox {
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  #flex {
+    display: flex;
+  
+    justify-content: space-between;
+   
+  }
+
+ #x{
+     position:relative;
+     border:none ;
+     background-color: #faf9f8;
+     height: 22;
+     justify-self: right;
+     font-size: 30px;
+     font-weight: lighter;
+     
+    
+
+ }
+ #X{
+     position:relative;
+     border:none ;
+     background-color: #faf9f8;
+     height: 22;
+     justify-self:right;
+     margin-left: 100%;
+     font-size: 30px;
+     font-weight: 100px;
+    
+
+ }
+ #container2 {
+    border: 1px solid black;
+    height: 1130px;
+    max-width: 420px;
+    background-color: #faf9f8;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    margin-top: 2%;
+    padding: 40px;
+    padding-top: 20px;
+    display: none;
+    position: fixed;
+    margin-left: 35%;
+    min-width:400px;
+    
+  
+  }
+ #back{
+   border:none;
+   text-decoration: underline;
+   margin-top: 10px;
+ }
+ #back:hover{
+   color:gray
+ }
+#beMember{
+  background-color: black;
+  color: white;
+}
+#beMember:hover{
+  background-color: rgb(56, 54, 54);
+}
+#alert{
+display: none;
+margin-top: 0px;
+margin-bottom: 0px;
+color: red;
+}
+#addmore{
+  justify-content: space-between;
+  background-color: white;
+  border: none;
+}
+#moreDetails{
+  
+  grid-gap: 10px;
+  display:none;
+  grid-template-columns: auto;
+  background-color: white;
+  text-align: left;
+  padding: 20px;
+}
+#minus{
+   display: none;
+   color:rgb(221, 13, 13);
+}
+#plus{
+  display: inline-block;
+}
+#emailalert,#passwordalert,#dobalert{
+  color:red;
+  margin:0px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+#signinmain:hover{
+  color: red;
+}
