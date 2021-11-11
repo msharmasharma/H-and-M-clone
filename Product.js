@@ -634,7 +634,7 @@ var userData=JSON.parse(localStorage.getItem("userDataHM")) || [];
     localStorage.setItem("userDataHM",JSON.stringify(userData));
     console.log(userData);
     alert("You're now a member!")
-    window.location.href="kid.html"
+    window.location.href="Product.html"
   }
   }
   document.getElementById("back").addEventListener("click", back);
@@ -654,7 +654,7 @@ function signin(){
       flag=1;
       check=1;
       checksignin="signed";
-      window.location.href="kid.html";
+      window.location.href="Product.html";
       document.getElementById("signinmain").textContent="My Account";
     }
   }
