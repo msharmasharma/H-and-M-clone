@@ -3,17 +3,8 @@
   font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
-body {
-  width: 1600px;
-  display: grid;
-  grid-template-areas: "top top";
-  /* padding: 20px; */
-  /* margin: auto; */
-}
-
 #top {
-  width: 100vw;
-  grid-area: top;
+  /* width: 100vw; */
   /* border: 1px solid red; */
   height: 210px;
   margin-bottom: 20px;
@@ -110,16 +101,16 @@ span > i {
 }
 
 #bottom {
-  /* border: 1px solid blue; */
-  width: 1600px;
+  /* border: 1px solid red; */
   display: flex;
-  margin: auto;
 }
 
 #left {
   /* border: 1px solid green; */
-  /* height: 800px; */
-  width: 200px;
+  /* width: 200px; */
+  /* display: inline-block; */
+  vertical-align: top;
+  position: absolute;
 }
 
 .sidebar {
@@ -148,9 +139,10 @@ a:hover {
 }
 
 #right {
+  /* display: inline-block; */
   /* border: 1px solid rgb(20, 11, 11); */
   width: 1100px;
-  margin-left: 20px;
+  margin: auto;
 }
 
 .bigImg {
@@ -164,6 +156,7 @@ a:hover {
   background: url(https://www2.hm.com/content/dam/TOOLBOX/inlocal/IN_S4_FESTIVE_PART_2_3x2_kids%20group%201.jpg)
     no-repeat;
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 #up > div {
@@ -196,6 +189,7 @@ a:hover {
   margin-bottom: 28px;
   background-image: url(https://www2.hm.com/content/dam/hm/TOOLBOX/Local%20Activities/2021_s03/mars/nea/nea-sanrio-local-activity09-SGI-3x1.jpg);
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 #middle {
@@ -230,6 +224,7 @@ a:hover {
 #down {
   background-image: url(https://www2.hm.com/content/dam/kids_s04/september_2021/4064b/4064B3x2.jpg);
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 #first {
@@ -309,7 +304,7 @@ a:hover {
   margin-top: 20px;
   border: 1px solid #e4e4e4;
   background: #e4e4e4;
-  width: 100vw;
+  /* width: 100vw; */
 }
 
 #list {
@@ -426,5 +421,4 @@ a:hover {
 #bottomLast > p > a {
   text-decoration: none;
   color: black;
-  
 }
