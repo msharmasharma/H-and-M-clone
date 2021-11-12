@@ -33,6 +33,7 @@ body {
   margin: auto;
   font-family: "PT Sans", sans-serif;
   margin-bottom: 1rem;
+  
 }
 .cart-item {
   display: flex;
@@ -42,8 +43,6 @@ body {
 .cart-section {
   display: flex;
   justify-content: center;
-  background-color: #fff;
-
   margin: auto;
 }
 
@@ -289,10 +288,11 @@ p {
   border: none;
 }
 
+
 /* footer */
 
 #footer {
-    margin-top: 50px;
+    
     border: 1px solid #e4e4e4;
     background: #e4e4e4;
     width: 100%;
