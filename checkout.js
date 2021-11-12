@@ -114,3 +114,16 @@ document.querySelector(".complete").addEventListener("click",function(){
         pay.style.display = "block"
     
 })
+
+const open = document.querySelector(".comp-payment")
+const modal_container = document.querySelector(".modal-container")
+const close = document.getElementById("close")
+
+
+open.addEventListener("click", function(){
+    modal_container.classList.add('show')
+});
+
+close.addEventListener("click", function(){
+    modal_container.classList.remove("show")
+})
