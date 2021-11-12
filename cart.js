@@ -79,18 +79,27 @@ function itemCart(final){
             tdThree.innerText = sumTotal
             tdOne.innerText = `${item.price}`
             console.log(tdThree)
+            console.log(sumTotal)
         }
         if(select.value == 2){
             td14.innerText = `Rs ${item.price * 2} `
-            sumTotal = item.price * 2
-            tdThree.innerText = sumTotal
-            tdOne.innerText = `${item.price * 2}`
+           var change = item.price 
+        //    sumTotal = total
+           sumTotal += change
+            tdThree.innerText = sumTotal 
+            tdOne.innerText = `${sumTotal}`
+            console.log(sumTotal)
+            console.log(change)
         }
         if(select.value == 3){
             td14.innerText = `Rs ${item.price * 3} `
-            sumTotal = item.price * 3
-            tdThree.innerText = sumTotal
-            tdOne.innerText = `${item.price * 3}`
+            var change = item.price 
+            // sumTotal = total
+            sumTotal += change
+            tdThree.innerText = sumTotal 
+            tdOne.innerText = `${sumTotal}`
+            console.log(sumTotal)
+            console.log(change)
         }
         localStorage.setItem("total", JSON.stringify(sumTotal))
     })
