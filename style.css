@@ -399,10 +399,10 @@ a:hover {
 }
 
 #footer {
-  /*margin-top: 20px;*/
+  padding-top: 30px;
+  margin-top: 20px;
   border: 1px solid #e4e4e4;
   background: #e4e4e4;
-  /* margin: auto;*/
 }
 
 #list {
