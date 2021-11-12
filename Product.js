@@ -645,22 +645,35 @@ document.getElementById("grid3").addEventListener("click",underline1);
 function underline1(){
 document.getElementById("grid3").style.textDecoration  ="underline red" ;
 document.getElementById("grid3").style.border ="solid 3px skyblue";
+document.getElementById("grid4").style.border ="none";
+document.getElementById("emtbox").style.border ="none";
+document.getElementById("boxflex").style.border ="none";
 }
 
 document.getElementById("grid4").addEventListener("click",underline2);
 function underline2(){
 document.getElementById("grid4").style.textDecoration  ="underline red";
 document.getElementById("grid4").style.border ="solid 3px skyblue";
+document.getElementById("grid3").style.border ="none";
+document.getElementById("emtbox").style.border ="none";
+document.getElementById("boxflex").style.border ="none";
 }
 
 document.getElementById("emtbox").addEventListener("click",box1);
 function box1(){
-document.getElementById("emtbox").style.border ="solid 1px"     ;
+document.getElementById("emtbox").style.border ="solid 1px" 
+document.getElementById("grid3").style.border ="none";
+document.getElementById("grid4").style.border ="none";
+document.getElementById("boxflex").style.border ="none";    
 }
 
 document.getElementById("boxflex").addEventListener("click",box2);
 function box2(){
-document.getElementById("boxflex").style.border ="solid 1px"     ;
+document.getElementById("boxflex").style.border ="solid 1px";
+document.getElementById("grid3").style.border ="none";
+document.getElementById("grid4").style.border ="none";
+document.getElementById("emtbox").style.border ="none";
+
 }
 
 var div=document.createElement("div");
