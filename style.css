@@ -131,6 +131,7 @@ p {
   background-image: url("https://akns-images.eonline.com/eol_images/Entire_Site/2020817/rs_1200x1200-200917092008-1200-Kangol-HM-LT-091720.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top");
   background-repeat: no-repeat;
   background-size: 1300px;
+  
 }
 .h1 {
   color: #fff;
@@ -227,6 +228,7 @@ p {
   background-size: 1300px;
   
   
+  
 
 }
 .a4 {
@@ -238,12 +240,13 @@ p {
   background-image: url("https://media.gq-magazine.co.uk/photos/615ade7b548034a303ddcf87/3:4/w_960,h_1280,c_limit/041021_JohnB_03.jpg");
   background-repeat: no-repeat;
   background-size: 1300px;
+  height: 100%;
  
 
 }
 .a5 {
   width: 1300px;
-  height: 900px;
+  height: 950px;
   border: 1px solid rgb(217, 226, 225);
   margin: auto;
   margin-top: 20px;
@@ -251,6 +254,7 @@ p {
   z-index: -1px;
   background-repeat: no-repeat;
   background-size: 1300px;
+  height: 100%;
  
 }
 
