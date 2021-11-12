@@ -328,7 +328,7 @@ var right = document.getElementById("right");
 var mainDiv = document.createElement("div");
 mainDiv.setAttribute("id", "containermain");
 mainDiv.addEventListener("click",function(){
-  window.location.href = "selected.html" 
+
 })
 right.append(mainDiv);
 showProducts();
@@ -367,6 +367,7 @@ showProducts(prod)
 var cart=JSON.parse(localStorage.getItem("cartItems ")) || [];
 
 function showProducts() {
+  mainDiv.setAttribute("id", "containermain");
   document.getElementById("containermain").innerHTML="";
  prod.map(function (item) {
     var imageDiv = document.createElement("div");
@@ -380,7 +381,6 @@ function showProducts() {
     img.setAttribute("id", "img");
     img.addEventListener("click",function(){
     addCart(item);
-
 
     });
 
@@ -422,7 +422,9 @@ var modelprod=JSON.parse(localStorage.getItem("modelproduct"));
 document.getElementById("grid3").addEventListener("click",modelshow)
 
 function modelshow(){
+  mainDiv.setAttribute("id", "containermain");
 document.getElementById("containermain").innerHTML="";
+
 
 modelprod.map(function (item) {
   var imageDiv = document.createElement("div");
@@ -476,15 +478,13 @@ document.getElementById("grid4").addEventListener("click",showProducts)
   document.getElementById("emtbox").addEventListener("click",boxshow)
 
   var boxbutton=JSON.parse(localStorage.getItem("product"));
-
-  function boxshow(){
-    var right = document.getElementById("right");
-    var mainDiv = document.createElement("div");
+      function boxshow(){
+ 
     mainDiv.setAttribute("id", "containermain1");
-    right.append(mainDiv);
+
   
     document.getElementById("containermain").innerHTML="";
-   
+  
    boxbutton.map(function (item) {
     var imageDiv = document.createElement("div");
     imageDiv.setAttribute("id","heart");
@@ -520,7 +520,8 @@ document.getElementById("grid4").addEventListener("click",showProducts)
 
     var p2 = document.createElement("span");
     p2.textContent = item.price;
-document.getElementById("footer").style.marginTop="150px"
+
+
     imdDiv.append(img)
     button.append(img1)
     imageDiv.append(imdDiv,button, p1, p3,p2 );
@@ -528,6 +529,7 @@ document.getElementById("footer").style.marginTop="150px"
     mainDiv.append(imageDiv);
    
       });
+ 
     }
 // Box Matrix Button----------------------------------------------------
 document.getElementById("boxflex").addEventListener("click",showProducts)
