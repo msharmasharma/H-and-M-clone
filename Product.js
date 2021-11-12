@@ -159,7 +159,10 @@ var data = [
     type: "Water-repellent nylon popover jacket",
     image_url:
       "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa3%2F19%2Fa3195d5200753c8bb64144388f4b43dab9653c69.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]",
+      image_url2:
+      "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F8e%2F79%2F8e7939626d4481442e01c85be2721863a2e6425e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
   },
+
   {
     price:"2,999",
     MRP: 2999,
@@ -327,9 +330,7 @@ var prod=JSON.parse(localStorage.getItem("product"));
 var right = document.getElementById("right");
 var mainDiv = document.createElement("div");
 mainDiv.setAttribute("id", "containermain");
-mainDiv.addEventListener("click",function(){
 
-})
 right.append(mainDiv);
 showProducts();
 
@@ -381,7 +382,6 @@ function showProducts() {
     img.setAttribute("id", "img");
     img.addEventListener("click",function(){
     addCart(item);
-
     });
 
     var button = document.createElement("div");
@@ -595,41 +595,41 @@ console.log(item.price);
 
 var cartacces=JSON.parse(localStorage.getItem("cartItems"))||[];
 
-  if(item.price=="1,299"){
-    console.log(item.price);
-    window.location.href="innerProduct.html"
+  // if(item.price=="1,299"){
+  //   console.log(item.price);
+    window.location.href="selected.html"
     localStorage.setItem("cartItems",JSON.stringify(cart));
-  }
-  if(item.price=="1,399"){
-    console.log(item.price);
-    window.location.href="innerProduct1.html"
-    localStorage.setItem("cartItems",JSON.stringify(cart));
-  }
-  if(item.price=="2,999"){
-    console.log(item.price);
-    window.location.href="innerProduct2.html"
-    localStorage.setItem("cartItems",JSON.stringify(cart));
-  }
-  if(item.price=="4,499"){
-    console.log(item.price);
-    window.location.href="innerProduct3.html"
-    localStorage.setItem("cartItems",JSON.stringify(cart));
-  }
-  if(item.price=="1,499"){
-    console.log(item.price);
-    window.location.href="innerProduct4.html"
-    localStorage.setItem("cartItems",JSON.stringify(cart));
-  }
-  if(item.price=="2,299"){
-    console.log(item.price);
-    window.location.href="innerProduct5.html"
-    localStorage.setItem("cartItems",JSON.stringify(cart));
-  }
-  if(item.price=="3,299"){
-    console.log(item.price);
-    window.location.href="innerProduct6.html"
-    localStorage.setItem("cartItems",JSON.stringify(cart));
-  }
+  // }
+  // if(item.price=="1,399"){
+  //   console.log(item.price);
+  //   window.location.href="innerProduct1.html"
+  //   localStorage.setItem("cartItems",JSON.stringify(cart));
+  // }
+  // if(item.price=="2,999"){
+  //   console.log(item.price);
+  //   window.location.href="innerProduct2.html"
+  //   localStorage.setItem("cartItems",JSON.stringify(cart));
+  // }
+  // if(item.price=="4,499"){
+  //   console.log(item.price);
+  //   window.location.href="innerProduct3.html"
+  //   localStorage.setItem("cartItems",JSON.stringify(cart));
+  // }
+  // if(item.price=="1,499"){
+  //   console.log(item.price);
+  //   window.location.href="innerProduct4.html"
+  //   localStorage.setItem("cartItems",JSON.stringify(cart));
+  // }
+  // if(item.price=="2,299"){
+  //   console.log(item.price);
+  //   window.location.href="innerProduct5.html"
+  //   localStorage.setItem("cartItems",JSON.stringify(cart));
+  // }
+  // if(item.price=="3,299"){
+  //   console.log(item.price);
+  //   window.location.href="innerProduct6.html"
+  //   localStorage.setItem("cartItems",JSON.stringify(cart));
+  // }
 }
 
 // FAvrt 
@@ -645,22 +645,35 @@ document.getElementById("grid3").addEventListener("click",underline1);
 function underline1(){
 document.getElementById("grid3").style.textDecoration  ="underline red" ;
 document.getElementById("grid3").style.border ="solid 3px skyblue";
+document.getElementById("grid4").style.border ="none";
+document.getElementById("emtbox").style.border ="none";
+document.getElementById("boxflex").style.border ="none";
 }
 
 document.getElementById("grid4").addEventListener("click",underline2);
 function underline2(){
 document.getElementById("grid4").style.textDecoration  ="underline red";
 document.getElementById("grid4").style.border ="solid 3px skyblue";
+document.getElementById("grid3").style.border ="none";
+document.getElementById("emtbox").style.border ="none";
+document.getElementById("boxflex").style.border ="none";
 }
 
 document.getElementById("emtbox").addEventListener("click",box1);
 function box1(){
-document.getElementById("emtbox").style.border ="solid 1px"     ;
+document.getElementById("emtbox").style.border ="solid 1px" 
+document.getElementById("grid3").style.border ="none";
+document.getElementById("grid4").style.border ="none";
+document.getElementById("boxflex").style.border ="none";    
 }
 
 document.getElementById("boxflex").addEventListener("click",box2);
 function box2(){
-document.getElementById("boxflex").style.border ="solid 1px"     ;
+document.getElementById("boxflex").style.border ="solid 1px";
+document.getElementById("grid3").style.border ="none";
+document.getElementById("grid4").style.border ="none";
+document.getElementById("emtbox").style.border ="none";
+
 }
 
 var div=document.createElement("div");
