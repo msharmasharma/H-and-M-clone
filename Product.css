@@ -3,14 +3,6 @@
   font-family: "Zen Kaku Gothic Antique", sans-serif;
 }
 
-body {
-  width: 1600px;
-  display: grid;
-  grid-template-areas: "top top";
-  margin: auto;
-  padding: 20px;
-}
-
 #top {
   grid-area: top;
   /* border: 1px solid red; */
