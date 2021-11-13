@@ -422,7 +422,7 @@ a:hover {
 
 #footer {
   padding-top: 30px;
-  margin-top: 20px;
+  /*margin-top: 20px;*/
   border: 1px solid #e4e4e4;
   background: #e4e4e4;
 }
