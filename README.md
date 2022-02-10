@@ -6,9 +6,9 @@ H&M Group is a family of brands and businesses, making it possible for customers
 
 # Authors
 
-- [HanumaraddiBV](https://github.com/HanumaraddiBV)
-- [rohitsingh-23](https://github.com/rohitsingh-23)
-- [TanmayShirsat](https://github.com/TanmayShirsat)
+- [PiyushChaukade](https://github.com/PiyushChaukade)
+- [AswinAnand66](https://github.com/AswinAnand66)
+- [AkshayThakur1995](https://github.com/AkshayThakur1995)
 - [sanjeetSangam](https://github.com/sanjeetSangam)
 
 # How to look up
@@ -16,9 +16,8 @@ H&M Group is a family of brands and businesses, making it possible for customers
 Go to this link:-
 
 ```
-  https://ikea-clone-frontend-masai.herokuapp.com/home.html
+https://akshaythakur1995.github.io/H-and-M-Project/
 ```
-
 
 # Technologies Used for FRONTEND
 HTML <br/>
@@ -31,16 +30,19 @@ VS Code
 Github
 
 # Functionalities
-Signup and Login
+Signup and Login (done with local-storage)
 Sort items by there price
 Filter items by there price range
 Add items into the cart
 update items price and weight according to their quantity
-applying coupan code masai30
 procees to pay after entering the dropout details
 pay by debit card
 checkout
 
 # Website flow
-*Signup and Login
+*Visit Landing page
+*Visit products page
+*Can add products to cart
+*Can Checkout
+
 
