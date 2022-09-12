@@ -7,6 +7,7 @@ H&M Group is a family of brands and businesses, making it possible for customers
 # Authors
 
 - [PiyushChaukade](https://github.com/PiyushChaukade)
+- [MadhusudanSharma](https://github.com/msharmasharma)
 - [AswinAnand66](https://github.com/AswinAnand66)
 - [AkshayThakur1995](https://github.com/AkshayThakur1995)
 - [sanjeetSangam](https://github.com/sanjeetSangam)
